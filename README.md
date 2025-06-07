@@ -7,7 +7,7 @@ personalPortfolio
 - http://www.gyeltshen.net
 
 ## 🎥 Video Explainer
-- [Video Link Here]
+https://drive.google.com/file/d/1p6N11vPp4qQIYXKYo6fP72vZNDkr-Crb/view?usp=drive_link 
 
 ## 📄 About the Project
 This project is part of ICT171 - Introduction to Server Environments and Architectures.  
