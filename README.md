@@ -30,4 +30,4 @@ It demonstrates how to set up a personal portfolio website using an EC2 Ubuntu s
 Detailed documentation can be found in `35459148_kinley_gyeltshen_ICT171cloudproject.pdf`.
 
 ## License
-MIT License 
+Creative Common Licsense.
