@@ -1,19 +1,23 @@
 # ICT171 Cloud Server Project - Kinley Gyeltshen | student ID: 35459148 
 
-## 🌐 Live Server
+## Live Server
 - http://www.gyeltshen.net
-
-## 🎥 Video Explainer
-https://drive.google.com/file/d/1p6N11vPp4qQIYXKYo6fP72vZNDkr-Crb/view?usp=drive_link 
+## Video Explainer
+[watch on Google Drive](https://drive.google.com/file/d/1p6N11vPp4qQIYXKYo6fP72vZNDkr-Crb/view?usp=drive_link)
+---
 
 ## About the Project
 This project is part of ICT171 - Introduction to Server Environments and Architectures.  
 It demonstrates how to set up a personal portfolio website using an EC2 Ubuntu server, Apache2, and a domain name.
 
+---
+
 ## Contents
-- step-by-step video explanier on creating a website.
-- Document tutorial on hosting website on EC2 from scratch.
-- test results of the website.  
+- step-by-step video explanier on creating the website.
+- Document tutorial on hosting website on EC2 from scratch (`35459148_kinley_gyeltshen_ICT171cloudproject.pdf`).
+- test results of the website.
+   
+---
 
 ## Technologies Used
 - AWS EC2 (t2.micro)
@@ -21,10 +25,14 @@ It demonstrates how to set up a personal portfolio website using an EC2 Ubuntu s
 - Apache2
 - GitHub
 - Cloudflare (for DNS)
+  
+---
 
 ## Requirements 
 - AWS Account with EC2 Access
-- Basic knowledge of linux commands and AWS console. 
+- Basic knowledge of linux commands and AWS console.
+  
+---
 
 ## Setup Instructions (Short Summary)
 1. Create an EC2 instance
@@ -32,9 +40,9 @@ It demonstrates how to set up a personal portfolio website using an EC2 Ubuntu s
 3. Upload your portfolio html.zip to `/var/www/html`
 4. Configure DNS via Cloudflare to point your domain to the EC2 public IP
 5. Add SSL with Certbot
+Detailed documentation can be found in included PDF tutorial.
 
-Detailed documentation can be found in `35459148_kinley_gyeltshen_ICT171cloudproject.pdf`.
-
+---
 
 ## Summary of Changes to html template
 For this project, I customized the original `index.html` file from the [HTML5 UP - Solid State template](https://html5up.net/solid-state ) to create a personal portfolio website. The key changes include:
