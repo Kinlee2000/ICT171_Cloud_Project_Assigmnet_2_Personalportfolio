@@ -15,3 +15,17 @@ This document provides all the steps required to build the Personal Portfolio we
 
 ```bash
 ssh -i "your-key.pem" ubuntu@<EC2_PUBLIC_IP>
+---
+## 3.Update system and install Apache
+
+```bash 
+sudo apt update
+sudo apt install apache2 -y
+sudo systemctl enable apache2
+sudo systemctl start apache2
+---
+Check Apache:
+
+```bash
+sudo systemctl status apache2
+
