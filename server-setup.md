@@ -74,7 +74,7 @@ sudo systemctl reload apache2
 | A    | www  | \<EC2\_PUBLIC\_IP> | Auto | DNS only     |
 
 ---
-## 7. Install SSl 
+## 7. Install SSL 
 ```bash
 sudo apt install certbot python3-certbot-apache -y
 sudo certbot --apache
