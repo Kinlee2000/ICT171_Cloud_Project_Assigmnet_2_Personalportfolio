@@ -74,4 +74,10 @@ sudo systemctl reload apache2
 | A    | www  | \<EC2\_PUBLIC\_IP> | Auto | DNS only     |
 
 ---
-
+## 7. Install SSl 
+```bash
+sudo apt install certbot python3-certbot-apache -y
+sudo certbot --apache
+```
+- select gyeltshen.net and www.gyeltshen.net when prompted
+- Certbot will update your Apache config and enable HTTPS
