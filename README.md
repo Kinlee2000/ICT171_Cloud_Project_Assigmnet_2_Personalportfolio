@@ -40,7 +40,7 @@ It demonstrates how to set up a personal portfolio website using an EC2 Ubuntu s
 3. Upload your portfolio html.zip to `/var/www/html`
 4. Configure DNS via Cloudflare to point your domain to the EC2 public IP
 5. Add SSL with Certbot
-Detailed documentation can be found in included PDF tutorial.
+- Detailed documentation can be found in included PDF tutorial.
 
 ---
 
