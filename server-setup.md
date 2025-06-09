@@ -76,7 +76,7 @@ sudo systemctl reload apache2
 ---
 ## 7. Install SSL 
 ```bash
-sudo apt install certbot python3-certbot-apache -y
+sudo apt install certbot python3-certbot-apache 
 sudo certbot --apache
 ```
 - select gyeltshen.net and www.gyeltshen.net when prompted
