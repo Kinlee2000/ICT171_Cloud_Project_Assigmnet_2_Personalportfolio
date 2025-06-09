@@ -3,7 +3,7 @@
 ## Live Server
 - http://www.gyeltshen.net
 ## Video Explainer
-[watch on Google Drive](https://drive.google.com/file/d/1p6N11vPp4qQIYXKYo6fP72vZNDkr-Crb/view?usp=drive_link)
+[watch on Google Drive](https://drive.google.com/file/d/1pAl_fQmMG2NM9yCllAfmA2zkbYtjdyvn/view?usp=drive_link)
 ---
 
 ## About the Project
