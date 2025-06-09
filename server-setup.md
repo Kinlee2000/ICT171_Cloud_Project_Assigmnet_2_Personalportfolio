@@ -24,9 +24,7 @@ ssh -i "your-key.pem" ubuntu@<EC2_PUBLIC_IP>
 
 ```bash
 sudo apt update
-sudo apt install apache2 -y
-sudo systemctl enable apache2
-sudo systemctl start apache2
+sudo apt install apache2
 ```
 ---
 ## 4. upload and deploy Website Files 
@@ -43,8 +41,37 @@ sudo systemctl start apache2
   ```
 ---
 ## 5. configure Apache Virtual Host
-create Virtual host config
-``bash
+- create Virtual host config
+```bash
 sudo nano /etc/apache2/sites-available/gyeltshen.net.conf
 ```
+- paste this:
+  ```bash
+  <VirtualHost *:80>
+    ServerName gyeltshen.net
+    ServerAlias www.gyeltshen.net
+    DocumentRoot /var/www/html
+
+    <Directory /var/www/html>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/gyeltshen_error.log
+    CustomLog ${APACHE_LOG_DIR}/gyeltshen_access.log combined
+  </VirtualHost>
+  ```
+- enable the site:
+```bash
+sudo a2ensite gyeltshen.net.conf
+sudo systemctl reload apache2
+```
+---
+## 6. Point Domain (CloudFlare) to EC2
+| Type | Name | Value              | TTL  | Proxy Status |
+| ---- | ---- | ------------------ | ---- | ------------ |
+| A    | @    | \<EC2\_PUBLIC\_IP> | Auto | DNS only     |
+| A    | www  | \<EC2\_PUBLIC\_IP> | Auto | DNS only     |
+
+---
 
